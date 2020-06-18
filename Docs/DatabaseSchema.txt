@@ -1,0 +1,3 @@
+User(_UserID_, Name);
+Transaction(_TID_, Description, Amount, Date);
+Payments(_UID_, _TID_, Amount); // PRIMARY KEY (_TID_, _UID_)
